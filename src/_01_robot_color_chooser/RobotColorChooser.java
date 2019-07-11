@@ -17,7 +17,20 @@ public class RobotColorChooser {
 		String colorpick = JOptionPane.showInputDialog("What color would you like");
 		//5. Use an if/else statement to set the pen color that the user requested
 		if(colorpick=="green") {
-			robot1.
+			robot1.setPenColor(Color.GREEN);
+			
+		}
+		if(colorpick=="red") {
+			robot1.setPenColor(Color.RED);
+		}
+		if(colorpick=="blue") {
+			robot1.setPenColor(Color.BLUE);
+		}
+		if(colorpick=="yellow") {
+			robot1.setPenColor(Color.YELLOW);
+		}
+		if(colorpick=="black") {
+			robot1.setPenColor(Color.BLACK);
 		}
         //6. If the user doesn’t enter anything, choose a random color
 
