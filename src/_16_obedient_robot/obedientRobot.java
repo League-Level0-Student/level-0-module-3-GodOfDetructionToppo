@@ -19,7 +19,7 @@ public class obedientRobot {
 			drawtriangle();
 		}
 		
-		//drawcircle();
+		drawcircle();
 	}
 	
 	public static void drawSquare() {
